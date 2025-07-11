@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"基础练习/1.HelloWorld.sol": "Storage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"基础练习/1.HelloWorld.sol": {
+			"keccak256": "0x71972254d5e75ccecf6d69648ca7ce36d085aa15ad251ed2c8165b508ba59347",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e9b452133dcd75dc97dd96c7c47dd1c245024f306b9c5cb0e74d52ff555ffff2",
+				"dweb:/ipfs/QmPcncnjLu6RZ4bZHTY7c8pnTkU16CDGcHGunn8974niC9"
+			]
+		}
+	},
+	"version": 1
+}

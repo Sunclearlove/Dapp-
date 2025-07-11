@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "oldValue",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "incre",
+						"type": "uint256"
+					}
+				],
+				"name": "BalanceAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "banlce",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBanlce",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "setBanlce",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"基础练习/2_ContranctStructure.sol": "ContranctStructure"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"基础练习/2_ContranctStructure.sol": {
+			"keccak256": "0x061249b7dd56fb66ced8bee46f44f3313ee21653302319bc8e9caacf70462ab0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b700b049d49151606c9c6868f5a94dd0af8a4c65e6bf34389b7309f10fb5e1c5",
+				"dweb:/ipfs/QmRqoKLA7kFuwWUCf3ck4oNVgzfZ1GBfmQ8MtfXbb5EgA6"
+			]
+		}
+	},
+	"version": 1
+}
