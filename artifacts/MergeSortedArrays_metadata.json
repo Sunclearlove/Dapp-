@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "example",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "array1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "array2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "mergeSortedArrays",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "合并两个有序数组 memory: 内存数据，不保存在区块链中 new uint[]()：  在内存中创建动态数组 while： 循环  逐个比较合并两个数组 result[k++] = A[i++]： 等价于先赋值再加指针*",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity入门练习/5_MergeSortedArrays.sol": "MergeSortedArrays"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity入门练习/5_MergeSortedArrays.sol": {
+			"keccak256": "0x748cce84dd06aeb70b117fc2efb1c3eb6f256a7ccebeea5b916b529b9f6e5f51",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a58e625a24485214d33f9ad1c376b0f28d027a08439488ec2a81c2421a2356d",
+				"dweb:/ipfs/QmfAppXKGXw7j1YkvcWgLgyvUvDKycrvfdrSszapTZu5Kc"
+			]
+		}
+	},
+	"version": 1
+}

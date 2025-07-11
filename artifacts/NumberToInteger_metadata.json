@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "toRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity入门练习/4_NmberToInteger.sol": "NumberToInteger"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity入门练习/4_NmberToInteger.sol": {
+			"keccak256": "0x56fd52d9cc7af46cd4aee3525f000c9050abbf0ec0e156c39d9684c081ff99ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec3b22418e30f4a27d7f2ad24e9bde5b4bd673cf39ab507b6ec3f4cb97fa0168",
+				"dweb:/ipfs/QmeB8NWHikW6VTxsswt4PdbTGsK43zg2RN8hpqJba2Er7h"
+			]
+		}
+	},
+	"version": 1
+}
