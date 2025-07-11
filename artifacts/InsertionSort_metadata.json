@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "insertionSort",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"insertionSort(uint256[])": {
+					"details": "插入排序算法实现",
+					"params": {
+						"arr": "待排序的数组"
+					},
+					"returns": {
+						"_0": "排序后的数组"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity入门练习/InsertionSort.sol": "InsertionSort"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity入门练习/InsertionSort.sol": {
+			"keccak256": "0x77e7eb0867ea5bc96907ce4b908d318f74327cacadb75756a6fea46f2d86ca2c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e2e8b6b1cea1a02db1fd41279e160dbee4fa6d88b79725006821ba38ddefdcce",
+				"dweb:/ipfs/QmYWF5fajAbKebYiPQZC3Er366WsDBp7ZbiumCmgktcJLg"
+			]
+		}
+	},
+	"version": 1
+}
