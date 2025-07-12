@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdrawal",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "WETH (Wrapped Ether)",
+			"version": 1
+		},
+		"userdoc": {
+			"events": {
+				"Deposit(address,uint256)": {
+					"notice": "event:声明事件类型 address indexed： indexed表示这个字段可以被筛选和检索 uint amount : 存了多少钱/提了多少钱*"
+				}
+			},
+			"kind": "user",
+			"methods": {},
+			"notice": "练习：实现一个 WETH，将 ETH 包装成 ERC20 WETH （Wrapped ETH） 是ETH 的包装版本。 由于以太币本身并不符合B220 标准，导致与其他代币之间的互操作性较弱，难以用于去中心化应用程序（dApps）。  本练习要求实现一个符合 ERC20标准的WETH，它比普通的ERC20多了两个功能： 存款和取款，通过这两个功能，WETH 可以1:1兌换ETH.把 ETH 包装为 ERC20 Token 知识点：  external 这个函数只能被别人（合约外部）调用； payable  这个函数能接收 ETH（不加就会报错）； mapping 简直对结构 address 用户地址 uint256 无符号整数，代表余额 public  自动生成查询函数，可以balanceOf看余额 msg.sender 是谁调用了函数 msg.value 是他发送了多少eth*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity进阶/1_practiceEth.sol": "WETH"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity进阶/1_practiceEth.sol": {
+			"keccak256": "0xd036b92067deff43bec3e54193441fed4f0b6f2eea133dee4b32ba4a9c6041be",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c3100227d4e6d7942b6bfd656777836c9e67a83a3d9aaee09f1f85ad82ae01e0",
+				"dweb:/ipfs/QmdDYtNfaDDfxUUA6zxTKznmvocYfvP6APrw1n5PMHBsDJ"
+			]
+		}
+	},
+	"version": 1
+}
