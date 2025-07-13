@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "donations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "donor",
+						"type": "address"
+					}
+				],
+				"name": "getDonation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "3.编写讨饭合约 合约的目标： 记录捐款人和金额。   用mapping(address => unit) 接收ETH。          写一个donate()，外部可发ETH 提现               withdraw() 只能合约所有者提取全部余额 查询               getDonation(address) 查询捐赠额 安全               使用onlyOwner限制权限*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity进阶/3_HomeWork.sol": "BeggingContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity进阶/3_HomeWork.sol": {
+			"keccak256": "0x99ef6bca46a588fc7af7e11b28daf99c12cc863707d3b605781908ab1ee182af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94204996f7e2491f13e8ef66f97b92331a5532b6a0caadd43994cd83fe0379f8",
+				"dweb:/ipfs/QmbN9eWev2EdNVdCmJuK58eNV96fL16CBzmJTq9dzdCVxz"
+			]
+		}
+	},
+	"version": 1
+}
